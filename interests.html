@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hannah's Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css"/>
+		<!-- CSS only -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+		<!-- JS, Popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<header>
+
+			<!-- Nav -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <a class="navbar-brand" href="#">Navigate</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#photogallery">Photo Gallery<span class="sr-only">(current)</span></a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+		</header>
+
+		<div class="container">
+		  <div class="row">
+		    <div class="col-sm">
+		    	<h1>Interests</h1>
+		    	<p><br>My interest in sustainability led me to work as a Planet Blue Student Leader at the University of Michigan. I worked on the DEI team, created social media posts for the official UofM pages, and moderated a panel at a Zero Waste dinner.<br><br> During the 2019 football season, I worked as a Zero-Waste Stadium Educator at the Big House, the largest college football stadium in the US.</p>
+		    </div>
+		    <div class="col-sm">
+		      <section id="favorites">
+		      	<div class="favorites">
+		      		<h2>Favorites</h2>
+		      		<table class="table table-hover">
+		      		  <thead>
+		      		    <tr>
+		      		      <th scope="col" colspan="2">Favorite</th>
+		      		    </tr>
+		      		  </thead>
+		      		  <tbody>
+		      		    <tr>
+		      		      <th scope="row">Food to make</th>
+		      		      <td>Roasted garlic hummus</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <th scope="row">Food to bake</th>
+		      		      <td>Soft pretzels</td>
+		      		    </tr>
+		      		    <tr>
+		      		      <th scope="row">Color</th>
+		      		      <td>Green, like the leaves of trees in the spring</td>
+		      		    </tr>
+		      		  </tbody>
+		      		</table>
+		      	</div>
+		      </section>
+		    </div>
+		  </div>
+		</div>
+
+		<section id="photogallery">
+		<h2>Photo Gallery</h2>
+		<p>Here are some photos I've taken over the years. Hope you enjoy.</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="chicagoboatride.jpg" class="d-block w-100" alt="View of Chicago River">
+            </div>
+            <div class="carousel-item">
+              <img src="chicagoshore.jpg" class="d-block w-100" alt="Chicago shore">
+            </div>
+            <div class="carousel-item">
+              <img src="fentonriver.jpg" class="d-block w-100" alt="River in Fenton, MI">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+	    </section>
+
+	</body>
+</html>
